@@ -5,6 +5,7 @@ import main.service.AccountServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
 
 import java.math.BigDecimal;
 
@@ -13,6 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class AccountServiceImplTest {
 
     AccountServiceImpl accountService;
+
 
     @BeforeEach
     void setUp(){
@@ -36,7 +38,7 @@ class AccountServiceImplTest {
     @DisplayName("Test - withdraw")
     void withdraw() {
         // given -
-        BigDecimal amount = new BigDecimal(50);
+        BigDecimal amount = new BigDecimal(0);
         long accountId = 101;
         // when -
         String result = accountService.withdraw(amount, accountId);
@@ -55,4 +57,5 @@ class AccountServiceImplTest {
         assertNotNull(result);
 
    }
+
 }

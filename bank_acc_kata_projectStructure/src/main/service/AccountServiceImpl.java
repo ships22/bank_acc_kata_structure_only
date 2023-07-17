@@ -7,8 +7,12 @@ import main.model.Transaction;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class AccountServiceImpl implements AccountService{
+
+    private static String ACCOUNT_NOT_AVAILABLE = "ACCOUNT_NOT_AVAILABLE";
+    private static final Logger logger = Logger.getLogger("AccountServiceImpl");
 
     /**
      * Method to deposit in the selected account
@@ -22,7 +26,7 @@ public class AccountServiceImpl implements AccountService{
         st.setAccountId(accountId);
         st.setDescription(TransactionDescription.DEPOSIT);
         st.setDate(new Date());
-        Account account = getAccount(accountId);
+        Account account =  getAccount(accountId);
         BigDecimal newBalance = account.getBalance().add(amount);
         account.setBalance(newBalance);
         List<Transaction> sts = account.getTransaction();
@@ -47,14 +51,19 @@ public class AccountServiceImpl implements AccountService{
         st.setDate(new Date());
         Account account = getAccount(accountId);
         BigDecimal oldBalance = account.getBalance();
-        BigDecimal newBalance = oldBalance.subtract(oldBalance);
-        account.setBalance(newBalance);
-        List sts = account.getTransaction();
-        sts.add(st);
-        account.setTransaction(sts);
+        if (oldBalance.compareTo(amount) >= 0) {
+            BigDecimal newBalance = oldBalance.subtract(amount);
+            account.setBalance(newBalance);
+            List sts = account.getTransaction();
+            sts.add(st);
+            account.setTransaction(sts);
 
-        // account repository update | save into transaction repository
-        return amount + " " + "withdrawn from your account";
+            // account repository update | save into transaction repository
+            return amount + " " + "withdrawn from your account";
+        }else {
+            return "Insufficient fund";
+        }
+
     }
 
     /**
@@ -62,7 +71,7 @@ public class AccountServiceImpl implements AccountService{
      * @param accountId
      * */
     @Override
-    public Account getAccount(long accountId) {
+    public Account getAccount(long accountId)  {
         // get from repository by id
         return new Account();
     }

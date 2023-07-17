@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="078a9887-0078-491d-b753-e883ef2a41bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank_acc_kata_projectStructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bank_acc_kata_projectStructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/controller/BankingApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/service/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/service/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/service/TransactionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/main/service/TransactionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/test/AccountServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bank_acc_kata_projectStructure/test/AccountServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BankingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AccountServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AccountServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2SWif6735K8QiA3E5SwhzmKbuLu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.AccountServiceImplTest">
+    <configuration name="AccountServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank_acc_kata_projectStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="main.service.AccountServiceImpl" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountServiceImplTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImplTest.getAccountThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank_acc_kata_projectStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountServiceImplTest" />
+      <option name="METHOD_NAME" value="getAccountThrowsException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImplTest.getAccountThrowsException2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank_acc_kata_projectStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountServiceImplTest" />
+      <option name="METHOD_NAME" value="getAccountThrowsException2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImplTest.withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank_acc_kata_projectStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountServiceImplTest" />
+      <option name="METHOD_NAME" value="withdraw" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank_acc_kata_projectStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="main.service.TransactionServiceImpl" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TransactionServiceImplTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AccountServiceImplTest" />
+      <item itemvalue="JUnit.AccountServiceImplTest.getAccountThrowsException" />
+      <item itemvalue="JUnit.AccountServiceImplTest.getAccountThrowsException2" />
+      <item itemvalue="JUnit.TransactionServiceImplTest" />
+      <item itemvalue="JUnit.AccountServiceImplTest.withdraw" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServiceImplTest" />
+        <item itemvalue="JUnit.AccountServiceImplTest.withdraw" />
+        <item itemvalue="JUnit.TransactionServiceImplTest" />
+        <item itemvalue="JUnit.AccountServiceImplTest.getAccountThrowsException2" />
+        <item itemvalue="JUnit.AccountServiceImplTest.getAccountThrowsException" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="078a9887-0078-491d-b753-e883ef2a41bd" name="Default Changelist" comment="" />
+      <created>1689268840977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689268840977</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bank_acc_kata_projectStructure$TransactionServiceImplTest.ic" NAME="TransactionServiceImplTest Coverage Results" MODIFIED="1689271748621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.service.TransactionServiceImpl</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bank_acc_kata_projectStructure$AccountServiceImplTest_getAccountThrowsException.ic" NAME="AccountServiceImplTest.getAccountThrowsException Coverage Results" MODIFIED="1689270192379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bank_acc_kata_projectStructure$AccountServiceImplTest_withdraw.ic" NAME="AccountServiceImplTest.withdraw Coverage Results" MODIFIED="1689272492755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bank_acc_kata_projectStructure$AccountServiceImplTest.ic" NAME="AccountServiceImplTest Coverage Results" MODIFIED="1689272554053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.service.AccountServiceImpl</FILTER>
+    </SUITE>
+  </component>
+</project>

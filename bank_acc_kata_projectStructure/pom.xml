@@ -35,7 +35,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>main.controller.BankingApp</mainClass>
+                                    <mainClass>main.BankingApp</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
